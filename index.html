@@ -1,0 +1,234 @@
+﻿<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MY CLOSET — Privacy Policy</title>
+<style>
+  :root { color-scheme: dark light; --bg:#0a0a0a; --fg:#ececec; --muted:#9a9a9a; --card:#161616; --accent:#d4ff3a; }
+  @media (prefers-color-scheme: light) { :root { --bg:#fafafa; --fg:#1a1a1a; --muted:#666; --card:#fff; --accent:#5a7a00; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.7 system-ui,-apple-system,"Segoe UI","Malgun Gothic","PingFang SC","Noto Sans KR",sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 20px 20px 80px; }
+  header { display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap; }
+  .back { color:var(--accent); text-decoration:none; font-weight:700; font-size:14px; }
+  .tabs { display:flex; gap:6px; }
+  .tabs button { background:var(--card); color:var(--fg); border:1px solid #8884; padding:7px 14px; border-radius:999px; font:inherit; font-size:13px; font-weight:700; cursor:pointer; }
+  .tabs button[aria-pressed="true"] { background:var(--accent); color:#000; border-color:var(--accent); }
+  h1 { font-size: 26px; margin: 28px 0 4px; letter-spacing:-0.02em; }
+  h2 { font-size: 17px; margin: 30px 0 6px; color:var(--accent); }
+  p, li { color: var(--fg); }
+  .meta { color:var(--muted); font-size: 14px; margin:0 0 8px; }
+  ul { padding-left: 20px; }
+  li { margin: 4px 0; }
+  .card { background:var(--card); border:1px solid #8883; border-radius:14px; padding:14px 16px; margin:12px 0; }
+  .todo { background:#5a1a1a; color:#ffd7d7; padding:10px 14px; border-radius:10px; margin:16px 0; font-size:14px; display:none; }
+  [data-lang] { display:none; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <a class="back" href="#" id="back">← MY CLOSET</a>
+    <div class="tabs" role="group" aria-label="Language">
+      <button data-btn="ko">한국어</button>
+      <button data-btn="en">English</button>
+      <button data-btn="zh">中文</button>
+    </div>
+  </header>
+
+  <div class="todo" id="todo">⚠ 출시 전에 이 파일 맨 아래 스크립트의 DEVELOPER_NAME, CONTACT_EMAIL을 실제 값으로 바꾸세요. (바꾸면 이 경고는 사라집니다)</div>
+
+  <!-- ===================== 한국어 ===================== -->
+  <section data-lang="ko">
+    <h1>개인정보처리방침</h1>
+    <p class="meta">앱 이름: MY CLOSET · 개발자: <span data-dev></span> · 시행일: 2026년 10월 18일</p>
+    <p><b>MY CLOSET</b>(이하 "앱")은 사용자의 옷 사진과 옷장 정보를 <b>사용자의 기기 안에서만</b> 처리하고 보관합니다. 개발자는 회원가입이나 서버를 두고 있지 않으며, 사용자의 사진·옷장 정보를 수집하거나 서버로 전송하지 않습니다.</p>
+
+    <h2>1. 앱이 다루는 정보와 사용 목적</h2>
+    <div class="card">
+      <b>① 옷 사진 · 옷 정보 (이름, 카테고리, 편집 설정, 착용 기록)</b>
+      <ul>
+        <li>사진은 카메라 촬영 또는 앨범 선택으로 가져오며, 배경 제거와 일러스트 변환은 <b>모두 기기 안에서</b> 이루어집니다.</li>
+        <li>원본 사진과 변환 결과, 옷 정보, 착용 기록, 설정은 <b>기기 내부 저장소에만</b> 저장되며 개발자에게 전송되지 않습니다.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <b>② 결제 정보</b>
+      <ul>
+        <li>"무제한 열기"는 <b>Google Play</b>를 통한 1회 구매입니다. 결제 수단·카드 정보는 Google이 처리하며 개발자는 받지 않습니다.</li>
+        <li>앱은 구매 여부(구매했는지 아닌지)만 Google Play에서 확인합니다.</li>
+      </ul>
+    </div>
+
+    <h2>2. 앱 권한</h2>
+    <ul>
+      <li><b>카메라</b>: 옷 사진을 직접 찍을 때만 사용합니다.</li>
+      <li><b>사진/앨범</b>: 사용자가 직접 고른 사진만 가져옵니다. 앨범 전체에 접근하지 않습니다.</li>
+      <li><b>인터넷</b>: Google Play 결제 확인에만 사용합니다.</li>
+    </ul>
+
+    <h2>3. 제3자 제공 · 광고 · 분석</h2>
+    <ul>
+      <li>개인정보를 판매하거나 광고 목적으로 제3자에게 제공하지 않습니다.</li>
+      <li>앱에는 <b>광고, 사용자 추적, 분석(통계) 도구가 없습니다.</b></li>
+      <li>옷 상세 화면의 "무신사 / 지그재그" 버튼을 누르면 해당 쇼핑몰 웹사이트가 열립니다. 이동 후의 정보 처리는 각 사이트의 방침을 따릅니다.</li>
+    </ul>
+
+    <h2>4. 보관 기간과 삭제</h2>
+    <ul>
+      <li>모든 데이터는 사용자의 기기에 있으며, 옷은 앱 안에서 하나씩 삭제할 수 있습니다.</li>
+      <li><b>앱을 삭제하면 기기 안의 앱 데이터가 함께 삭제</b>됩니다.</li>
+      <li>기기의 백업 기능(Android 자동 백업)을 켜 두었다면 앱 데이터가 사용자의 Google 계정 백업에 포함될 수 있으며, 이는 사용자가 관리하는 백업입니다.</li>
+    </ul>
+
+    <h2>5. 아동</h2>
+    <p>앱은 만 14세 미만 아동을 대상으로 하지 않으며, 아동의 개인정보를 의도적으로 수집하지 않습니다.</p>
+
+    <h2>6. 방침의 변경</h2>
+    <p>방침이 바뀌면 앱 안 또는 이 페이지에 공지하고 시행일을 갱신합니다.</p>
+
+    <h2>7. 문의</h2>
+    <p>개인정보 관련 문의: <a data-mail></a></p>
+  </section>
+
+  <!-- ===================== English ===================== -->
+  <section data-lang="en">
+    <h1>Privacy Policy</h1>
+    <p class="meta">App: MY CLOSET · Developer: <span data-dev></span> · Effective: October 18, 2026</p>
+    <p><b>MY CLOSET</b> ("the app") processes and stores your clothing photos and closet data <b>only on your device</b>. We run no accounts and no servers for your content, and we do not collect your photos or closet data or send them anywhere.</p>
+
+    <h2>1. What the app handles and why</h2>
+    <div class="card">
+      <b>① Clothing photos and item data (names, categories, edit settings, wear log)</b>
+      <ul>
+        <li>Photos come from your camera or your gallery picks. Background removal and illustration conversion run <b>entirely on your device</b>.</li>
+        <li>Original photos, results, item data, the wear log and settings are stored <b>in on-device storage only</b> and are never sent to the developer.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <b>② Payment information</b>
+      <ul>
+        <li>"Unlock unlimited" is a one-time purchase through <b>Google Play</b>. Google handles your payment method and card details; the developer never receives them.</li>
+        <li>The app only checks with Google Play whether you own the purchase.</li>
+      </ul>
+    </div>
+
+    <h2>2. Permissions</h2>
+    <ul>
+      <li><b>Camera</b>: only when you take a clothing photo.</li>
+      <li><b>Photos</b>: only the pictures you choose; the app does not access your whole library.</li>
+      <li><b>Internet</b>: only for Google Play purchase checks.</li>
+    </ul>
+
+    <h2>3. Sharing, ads and analytics</h2>
+    <ul>
+      <li>We do not sell personal data or share it with third parties for advertising.</li>
+      <li>The app contains <b>no ads, no user tracking and no analytics tools.</b></li>
+      <li>The "MUSINSA / ZIGZAG" buttons on an item's detail screen open those shopping websites. Their own policies apply after you leave the app.</li>
+    </ul>
+
+    <h2>4. Retention and deletion</h2>
+    <ul>
+      <li>All data lives on your device. You can delete items one by one inside the app.</li>
+      <li><b>Uninstalling the app deletes its data from your device.</b></li>
+      <li>If Android's automatic backup is on, app data may be included in your own Google account backup, which you control.</li>
+    </ul>
+
+    <h2>5. Children</h2>
+    <p>The app is not directed to children under 14 (or the minimum age in your country), and we do not knowingly collect children's personal information.</p>
+
+    <h2>6. Changes</h2>
+    <p>If this policy changes, we will post the update in the app or on this page and revise the effective date.</p>
+
+    <h2>7. Contact</h2>
+    <p>Privacy questions: <a data-mail></a></p>
+  </section>
+
+  <!-- ===================== 中文 ===================== -->
+  <section data-lang="zh">
+    <h1>隐私政策</h1>
+    <p class="meta">应用：MY CLOSET · 开发者：<span data-dev></span> · 生效日期：2026年10月18日</p>
+    <p><b>MY CLOSET</b>（以下称“应用”）仅在<b>您的设备上</b>处理和保存您的衣物照片及衣橱数据。我们没有账号系统，也没有存放您内容的服务器，不会收集您的照片或衣橱数据，更不会将其发送到任何地方。</p>
+
+    <h2>1. 应用处理的信息及用途</h2>
+    <div class="card">
+      <b>① 衣物照片和衣物信息（名称、分类、编辑设置、穿搭记录）</b>
+      <ul>
+        <li>照片来自相机拍摄或相册选择。去背景和插画转换<b>全部在您的设备上完成</b>。</li>
+        <li>原图、转换结果、衣物信息、穿搭记录和设置<b>仅保存在设备本地存储</b>中，不会发送给开发者。</li>
+      </ul>
+    </div>
+    <div class="card">
+      <b>② 支付信息</b>
+      <ul>
+        <li>“解锁无限”是通过 <b>Google Play</b> 完成的一次性购买。支付方式和银行卡信息由 Google 处理，开发者不会获得。</li>
+        <li>应用仅向 Google Play 确认您是否已购买。</li>
+      </ul>
+    </div>
+
+    <h2>2. 应用权限</h2>
+    <ul>
+      <li><b>相机</b>：仅在您拍摄衣物照片时使用。</li>
+      <li><b>照片</b>：仅读取您亲自选择的图片，不会访问整个相册。</li>
+      <li><b>网络</b>：仅用于确认 Google Play 购买。</li>
+    </ul>
+
+    <h2>3. 第三方共享、广告与统计</h2>
+    <ul>
+      <li>我们不出售个人信息，也不为广告目的向第三方提供。</li>
+      <li>应用<b>没有广告、用户追踪或统计分析工具。</b></li>
+      <li>点击衣物详情页的“MUSINSA / ZIGZAG”按钮会打开相应购物网站，离开应用后适用该网站自己的政策。</li>
+    </ul>
+
+    <h2>4. 保存期限与删除</h2>
+    <ul>
+      <li>所有数据都在您的设备上，您可以在应用内逐件删除衣物。</li>
+      <li><b>卸载应用会同时删除设备上的应用数据。</b></li>
+      <li>如果开启了 Android 自动备份，应用数据可能包含在您自己的 Google 账号备份中，该备份由您自行管理。</li>
+    </ul>
+
+    <h2>5. 儿童</h2>
+    <p>应用不面向 14 岁以下儿童（或您所在国家/地区的最低年龄），也不会有意收集儿童的个人信息。</p>
+
+    <h2>6. 政策变更</h2>
+    <p>若本政策发生变化，我们会在应用内或本页面公布并更新生效日期。</p>
+
+    <h2>7. 联系我们</h2>
+    <p>隐私相关咨询：<a data-mail></a></p>
+  </section>
+</main>
+
+<script>
+  // ★ 출시 전에 아래 두 값을 실제 정보로 바꾸세요 (스토어에 표시되는 개발자 이름, 문의 받을 이메일)
+  var DEVELOPER_NAME = "남욱종";
+  var CONTACT_EMAIL = "skadnrwhd@gmail.com";
+
+  var sp = new URLSearchParams(location.search);
+  var saved = null; try { saved = localStorage.getItem("closet.lang"); } catch (e) {}
+  var nav = (navigator.language || "").toLowerCase();
+  var guess = nav.indexOf("ko") === 0 ? "ko" : nav.indexOf("zh") === 0 ? "zh" : "en";
+  function pick(v) { return v === "ko" || v === "en" || v === "zh" ? v : null; }
+  var lang = pick(sp.get("lang")) || pick(saved ? saved.replace(/"/g, "") : null) || guess;
+
+  function show(l) {
+    lang = l;
+    document.documentElement.lang = l;
+    document.querySelectorAll("[data-lang]").forEach(function (s) { s.style.display = s.dataset.lang === l ? "block" : "none"; });
+    document.querySelectorAll("[data-btn]").forEach(function (b) { b.setAttribute("aria-pressed", b.dataset.btn === l ? "true" : "false"); });
+    document.title = { ko: "MY CLOSET — 개인정보처리방침", en: "MY CLOSET — Privacy Policy", zh: "MY CLOSET — 隐私政策" }[l];
+  }
+  document.querySelectorAll("[data-btn]").forEach(function (b) { b.addEventListener("click", function () { show(b.dataset.btn); }); });
+  document.querySelectorAll("[data-dev]").forEach(function (e) { e.textContent = DEVELOPER_NAME; });
+  document.querySelectorAll("[data-mail]").forEach(function (a) { a.textContent = CONTACT_EMAIL; a.href = "mailto:" + CONTACT_EMAIL; });
+  if (/TODO/.test(DEVELOPER_NAME + CONTACT_EMAIL)) document.getElementById("todo").style.display = "block";
+
+  // 앱 안에서 열었으면 앱으로 돌아가기, 웹에서 열었으면 숨김
+  var back = document.getElementById("back");
+  if (history.length > 1) back.addEventListener("click", function (e) { e.preventDefault(); history.back(); });
+  else back.style.display = "none";
+  show(lang);
+</script>
+</body>
+</html>
